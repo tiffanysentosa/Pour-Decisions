@@ -36,5 +36,3 @@ Navigate through the application using the navbar. Start learning by clicking on
 - **User Accounts**: Implement user authentication to save individual progress and custom quizzes.
 - **More Interactive Elements**: Include more detailed quizzes and interactive elements such as matching flavors and aromas.
 - **Mobile Responsiveness**: Enhance the mobile user experience by improving touch interactions and mobile-specific layouts.
-
-This README provides a comprehensive guide to using and understanding the "Pour Decisions" wine learning platform.
