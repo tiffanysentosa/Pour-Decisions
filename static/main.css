@@ -1,0 +1,230 @@
+
+body {
+    background-color: #353B14;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+}
+.navbar-font {
+    font-family: "Fraunces", serif;
+    font-weight: 300;
+    color: floralwhite
+}
+
+.backgroundcolor {
+    background-color: #353B14;
+}
+
+.learn-backgroundcolor {
+    background-color: floralwhite;
+    min-height: 35em;
+    border-radius: 5px;
+    display: flex; /* Establishes this element as a flex container */
+    flex-direction: column; /* Stacks children vertically */
+    justify-content: space-between; /* Aligns children with space between them */
+    height: 100%; /* Ensures the container takes full height, adjust as needed */
+}
+
+#button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-text-color {
+    color: floralwhite;
+    font-size: 20px;
+    /*position: center;*/
+}
+
+.navbar-container {
+    /*justify-content: center;*/
+    width: 100%; /* Ensures the navbar spans the full width */
+    padding-left: 0; /* Removes any padding on the left */
+    padding-right: 0;
+    position: absolute; /* Allows positioning on the screen */
+    top: 0vh; /* Positions the navbar halfway down the viewport height */
+    width: 50%; /* Ensures the navbar stretches across the full width of the viewport */
+    z-index: 10;
+    justify-content: flex-end; 
+
+}
+
+.navbar-nav {
+    display: flex; /* Enables flex properties for the navbar */
+    /*justify-content: center; !* This will center the nav items *!*/
+    width: 100%; /* Ensures nav takes the full width of its parent */
+
+}
+
+#detailed-nav {
+    flex-direction: row-reverse !important;
+}
+
+#link-box {
+    margin-right: 5em;
+}
+
+.nav-link {
+    color: white; /* Set link color to white */
+    font-size: 1.2em; /* Increase font size, adjust as needed */
+    padding: 0.5em 1em; /* Add padding around the links for spacing, adjust as needed */
+    display: inline-block; /* Allows padding to take effect */
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 6em; /* Add space to the right of each link, except the last one */
+}
+
+.content-container {
+    padding: 50px;
+    font-size: large;
+    line-height: 2;
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    background-image: url('https://i.pinimg.com/originals/e0/c5/4c/e0c54c190aa92a697a71d830dd98820f.jpg');
+    background-size: cover; /* This will cover the entire area of the container */
+    background-position: center center; /* This will center the image in the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Ensures the container takes up the full height of the viewport */
+}
+
+.image-container-blank {
+    position: relative;
+    display: inline-block; 
+}
+
+.footer-font {
+    font-family: "Fraunces", serif;
+    font-size: 70px; 
+    font-weight: bold; 
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+.hover-text {
+    position: absolute;
+    top: 10%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Perfect centering */
+    display: none;
+    color: white; /* Text color */
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black background */
+    padding: 8px;
+    border-radius: 10px;
+    white-space: nowrap; /* Ensures the text is on a single line */
+}
+
+.image-container-blank:hover .hover-text {
+    display: block;
+}
+
+.image-container-blank:hover {
+    cursor: pointer;
+}
+
+#reset-btn {
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-button {
+    background-color: lightsteelblue;
+    border: none;
+    color: black;
+    float: right;
+    margin: 20px;
+}
+
+.next-button:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.back-button {
+    text-align: left;
+    background-color: lightsteelblue;
+    border: none;
+    color: black;
+    margin: 20px;
+}
+
+.back-button:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+
+.title-font {
+    font-family: "Fraunces", serif;
+    font-weight: 500;
+    color: floralwhite
+}
+
+.main-font {
+    font-family: "Fraunces", serif;
+    font-weight: 650;
+    color: floralwhite;
+    font-size: 70px;
+}
+
+.body-font {
+    font-family: "Gill Sans";
+    line-height: 2;
+}
+
+.wine-glass {
+    max-width: 200px;
+    /*max-height: 200px;*/
+    width: auto;
+    height: 200px;
+}
+
+.dimmed {
+  opacity: 0.25;
+  transition: opacity 0.3s ease;
+}
+
+#wine-display{
+    justify-content: center;
+    gap: 80px 10px;
+    padding: 15px;
+}
+
+.bottom-left {
+    bottom: 20px;
+    left: 20px;
+}
+
+.top-right {
+    right: 20px;
+    top: 20px;
+}
+
+.learning-text {
+    font-family: "Gill Sans";
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    display: flex;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    background-color: floralwhite;
+}

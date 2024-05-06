@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='quiz.css') }}">
+
+<div class="container text-center mt-5 body-font score-box">
+    <div class="row justify-content-center score-box">
+        <div class="col-4">
+            <h2>Quiz Results</h2>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-2 score-no">
+            <p>{{ score }} / {{ total_questions }}</p>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <a href="/wines" class="btn btn-lg start-button">Go Back to Learning</a>
+        </div>
+    </div>
+
+    <div class="row justify-content-center gif">
+        <div class="col-6">
+            <img src="https://31.media.tumblr.com/0458c606c397760739abc8d1cdfbe8d7/tumblr_msv9ufxIKW1rprbo1o1_500.gif" alt="Celebration GIF">
+        </div>
+    </div>
+</div>
+{% endblock %}
