@@ -24,8 +24,7 @@
 #### Setup and Installation
 1. **Clone the repository**: Get the code from the GitHub repository.
 2. **Environment setup**: Ensure Python and Flask are installed. Setup a virtual environment if needed.
-3. **Dependency Installation**: Install necessary Python packages and other dependencies as listed in `requirements.txt`.
-4. **Running the Application**:
+3. **Running the Application**:
    - Start the server by running the Flask application script.
    - Access the application through the local web browser at the specified port.
 
